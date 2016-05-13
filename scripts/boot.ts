@@ -1,4 +1,8 @@
-import { bootstrap }    from 'angular2/platform/browser'
-import { BookmarkComponent } from './bookmark.component'
+import { bootstrap }    from 'angular2/platform/browser';
+import { ListComponent } from './list.component';
 
-bootstrap( BookmarkComponent );
+bootstrap( ListComponent );
+
+<body>
+  <sp-list>Loading bookmarks...</sp-list>
+</body>
