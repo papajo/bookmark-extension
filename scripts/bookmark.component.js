@@ -24,7 +24,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 BookmarkComponent = __decorate([
                     core_1.Component({
                         selector: 'sp-bookmark',
-                        template: '<h1>Bookmark</h1>'
+                        templateUrl: './templates/bookmark.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], BookmarkComponent);

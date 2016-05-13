@@ -1,5 +1,5 @@
 {
-  "name": "SitePointBookmarkExtension",
+  "name": "BookmarkExtension",
   "description": "A Chrome Extension for Bookmarks",
   "version": "1.0.0",
   "scripts": {
