@@ -3,7 +3,7 @@
 
     <title>Bookmark Extension</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="css/main.css">
     <!-- We load the libraries we need directly from the "node_modules" folder.
     In a more complex project, we would use a different approach here,
     e.g. working with a build tool like gulp.js or Angular-CLI. -->
@@ -14,7 +14,10 @@
 
     <!-- Load the SystemJS config -->
     <script src="scripts/system.config.js"></script>
-
+    <script src="lib/angular2-polyfills.js"></script>
+    <script src="lib/system.src.js"></script>
+    <script src="lib/Rx.js"></script>
+    <script src="lib/angular2.dev.js"></script>
   </head>
 
   <body>
